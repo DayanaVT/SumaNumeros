@@ -14,7 +14,7 @@ app.use(express.json());
 // Nuestro primer web service
 app.get('/', (req, res) => {
     res.json({
-        "mensaje": "MEndoza Palma Arturo"
+        "mensaje": "Mi primer página web"
     }
   );
 });
